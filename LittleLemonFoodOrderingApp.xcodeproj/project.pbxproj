@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90A110B29B7855C004B21B9 /* LittleLemonFoodOrderingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A110A29B7855C004B21B9 /* LittleLemonFoodOrderingApp.swift */; };
+		B90A110D29B7855C004B21B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A110C29B7855C004B21B9 /* ContentView.swift */; };
+		B90A110F29B7855E004B21B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90A110E29B7855E004B21B9 /* Assets.xcassets */; };
+		B90A111229B7855E004B21B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90A111129B7855E004B21B9 /* Preview Assets.xcassets */; };
+		B90A111A29B788B2004B21B9 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A111929B788B2004B21B9 /* Onboarding.swift */; };
+		B90A111C29B788EE004B21B9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A111B29B788EE004B21B9 /* Menu.swift */; };
+		B90A111E29B78904004B21B9 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A111D29B78904004B21B9 /* UserProfile.swift */; };
+		B90A112029B7891C004B21B9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A111F29B7891C004B21B9 /* Home.swift */; };
+		B90A112229B7894F004B21B9 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A112129B7894F004B21B9 /* Hero.swift */; };
+		B90A112429B7896F004B21B9 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A112329B7896F004B21B9 /* Categories.swift */; };
+		B90A112729B78990004B21B9 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A112629B78990004B21B9 /* MenuItem.swift */; };
+		B90A112929B789B1004B21B9 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A112829B789B1004B21B9 /* MenuList.swift */; };
+		B90A112B29B789CA004B21B9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A112A29B789CA004B21B9 /* Persistence.swift */; };
+		B90A112D29B789E9004B21B9 /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A112C29B789E9004B21B9 /* FetchedObjects.swift */; };
+		B90A113029B78A5D004B21B9 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B90A112E29B78A5C004B21B9 /* Database.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B90A110729B7855C004B21B9 /* LittleLemonFoodOrderingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemonFoodOrderingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90A110A29B7855C004B21B9 /* LittleLemonFoodOrderingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonFoodOrderingApp.swift; sourceTree = "<group>"; };
+		B90A110C29B7855C004B21B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B90A110E29B7855E004B21B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B90A111129B7855E004B21B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B90A111929B788B2004B21B9 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		B90A111B29B788EE004B21B9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		B90A111D29B78904004B21B9 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		B90A111F29B7891C004B21B9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B90A112129B7894F004B21B9 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		B90A112329B7896F004B21B9 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		B90A112629B78990004B21B9 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		B90A112829B789B1004B21B9 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		B90A112A29B789CA004B21B9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B90A112C29B789E9004B21B9 /* FetchedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		B90A112F29B78A5C004B21B9 /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B90A110429B7855C004B21B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B90A10FE29B7855C004B21B9 = {
+			isa = PBXGroup;
+			children = (
+				B90A112E29B78A5C004B21B9 /* Database.xcdatamodeld */,
+				B90A110929B7855C004B21B9 /* LittleLemonFoodOrderingApp */,
+				B90A110829B7855C004B21B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B90A110829B7855C004B21B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B90A110729B7855C004B21B9 /* LittleLemonFoodOrderingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B90A110929B7855C004B21B9 /* LittleLemonFoodOrderingApp */ = {
+			isa = PBXGroup;
+			children = (
+				B90A112529B78987004B21B9 /* Model */,
+				B90A111829B78895004B21B9 /* View */,
+				B90A110A29B7855C004B21B9 /* LittleLemonFoodOrderingApp.swift */,
+				B90A110C29B7855C004B21B9 /* ContentView.swift */,
+				B90A110E29B7855E004B21B9 /* Assets.xcassets */,
+				B90A111029B7855E004B21B9 /* Preview Content */,
+				B90A112A29B789CA004B21B9 /* Persistence.swift */,
+				B90A112C29B789E9004B21B9 /* FetchedObjects.swift */,
+			);
+			path = LittleLemonFoodOrderingApp;
+			sourceTree = "<group>";
+		};
+		B90A111029B7855E004B21B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B90A111129B7855E004B21B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B90A111829B78895004B21B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B90A111929B788B2004B21B9 /* Onboarding.swift */,
+				B90A111B29B788EE004B21B9 /* Menu.swift */,
+				B90A111D29B78904004B21B9 /* UserProfile.swift */,
+				B90A111F29B7891C004B21B9 /* Home.swift */,
+				B90A112129B7894F004B21B9 /* Hero.swift */,
+				B90A112329B7896F004B21B9 /* Categories.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B90A112529B78987004B21B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B90A112629B78990004B21B9 /* MenuItem.swift */,
+				B90A112829B789B1004B21B9 /* MenuList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B90A110629B7855C004B21B9 /* LittleLemonFoodOrderingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90A111529B7855E004B21B9 /* Build configuration list for PBXNativeTarget "LittleLemonFoodOrderingApp" */;
+			buildPhases = (
+				B90A110329B7855C004B21B9 /* Sources */,
+				B90A110429B7855C004B21B9 /* Frameworks */,
+				B90A110529B7855C004B21B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleLemonFoodOrderingApp;
+			productName = LittleLemonFoodOrderingApp;
+			productReference = B90A110729B7855C004B21B9 /* LittleLemonFoodOrderingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B90A10FF29B7855C004B21B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B90A110629B7855C004B21B9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B90A110229B7855C004B21B9 /* Build configuration list for PBXProject "LittleLemonFoodOrderingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B90A10FE29B7855C004B21B9;
+			productRefGroup = B90A110829B7855C004B21B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B90A110629B7855C004B21B9 /* LittleLemonFoodOrderingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B90A110529B7855C004B21B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90A111229B7855E004B21B9 /* Preview Assets.xcassets in Resources */,
+				B90A110F29B7855E004B21B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B90A110329B7855C004B21B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90A112B29B789CA004B21B9 /* Persistence.swift in Sources */,
+				B90A111A29B788B2004B21B9 /* Onboarding.swift in Sources */,
+				B90A112429B7896F004B21B9 /* Categories.swift in Sources */,
+				B90A110D29B7855C004B21B9 /* ContentView.swift in Sources */,
+				B90A111E29B78904004B21B9 /* UserProfile.swift in Sources */,
+				B90A111C29B788EE004B21B9 /* Menu.swift in Sources */,
+				B90A112229B7894F004B21B9 /* Hero.swift in Sources */,
+				B90A112729B78990004B21B9 /* MenuItem.swift in Sources */,
+				B90A112D29B789E9004B21B9 /* FetchedObjects.swift in Sources */,
+				B90A112029B7891C004B21B9 /* Home.swift in Sources */,
+				B90A112929B789B1004B21B9 /* MenuList.swift in Sources */,
+				B90A110B29B7855C004B21B9 /* LittleLemonFoodOrderingApp.swift in Sources */,
+				B90A113029B78A5D004B21B9 /* Database.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B90A111329B7855E004B21B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B90A111429B7855E004B21B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B90A111629B7855E004B21B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LittleLemonFoodOrderingApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doxuto.LittleLemonFoodOrderingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B90A111729B7855E004B21B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LittleLemonFoodOrderingApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doxuto.LittleLemonFoodOrderingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B90A110229B7855C004B21B9 /* Build configuration list for PBXProject "LittleLemonFoodOrderingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90A111329B7855E004B21B9 /* Debug */,
+				B90A111429B7855E004B21B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90A111529B7855E004B21B9 /* Build configuration list for PBXNativeTarget "LittleLemonFoodOrderingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90A111629B7855E004B21B9 /* Debug */,
+				B90A111729B7855E004B21B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B90A112E29B78A5C004B21B9 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B90A112F29B78A5C004B21B9 /* ExampleDatabase.xcdatamodel */,
+			);
+			currentVersion = B90A112F29B78A5C004B21B9 /* ExampleDatabase.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B90A10FF29B7855C004B21B9 /* Project object */;
+}
